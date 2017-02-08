@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Lato-MediumItalic';
+    src: url("fonts/LatoLatin-MediumItalic.woff");
+}
+
+@font-face {
+    font-family: 'Lato-Semibold';
+    src: url("fonts/LatoLatin-Semibold.woff");
+}
+
+body {
+    background: #5498a9;
+    color: white;
+    font-family: Lato-Semibold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.contenu {
+    max-width:1140px;
+    width: 70%;
+    margin: auto;
+}
+
+header {
+    margin-top: 42px;
+    align-items: center;
+    height: 4rem;
+}
+
+.logo {
+    background-image: url("../images/logo.png");
+    width: 166px;
+    height: 32px;
+}
+
+menu {
+    margin-left: auto;
+    font-size: 2rem;
+}
+
+.accroche {
+    font-family: Lato-MediumItalic;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.lien-pilule {
+    font-family: Lato-Semibold;
+    border: 1px solid white;
+    border-radius: 26px;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
