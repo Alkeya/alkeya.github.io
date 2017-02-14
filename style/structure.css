@@ -45,6 +45,13 @@ footer {
     padding-top: 100px;
 }
 
+.section-intro .accroche {
+    margin-bottom: 4rem;
+}
+.section-intro .podium {
+    margin-top: 4.5rem;
+}
+
 .section-intro img {
     width:100%;
 }
