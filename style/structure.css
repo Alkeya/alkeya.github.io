@@ -20,13 +20,6 @@ body {
     padding-top: .5rem;
 }
 
-footer {
-    position:fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-}
-
 .logo {
     background-image: url("../images/logo.png");
     width: 166px;
