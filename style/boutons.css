@@ -1,0 +1,14 @@
+.btn-pilule {
+    font-family: Lato-Semibold;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 2rem;
+    padding: 1rem 2.5rem;
+    transition: .1s;
+    -webkit-transition: .1s;
+}
+
+.btn-pilule:hover {
+    color: #5498a9;
+    background-color:white;
+}

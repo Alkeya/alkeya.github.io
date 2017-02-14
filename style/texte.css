@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Lato-MediumItalic';
+    src: url("fonts/LatoLatin-MediumItalic.woff");
+}
+
+@font-face {
+    font-family: 'Lato-Semibold';
+    src: url("fonts/LatoLatin-Semibold.woff");
+}
+
+@font-face {
+    font-family: 'Lato-SemiboldItalic';
+    src: url("fonts/LatoLatin-SemiboldItalic.woff");
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url("fonts/LatoLatin-Regular.woff");
+}
+
+
+.txt-fonce {
+    color: #474747;
+}
+
+.txt-clair {
+    color: #999999;
+}
+
+.txt-pale {
+    color: white;
+}

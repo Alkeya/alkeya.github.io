@@ -5,22 +5,126 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/knacss.css">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style/texte.css">
+    <link rel="stylesheet" href="style/structure.css">
+    <link rel="stylesheet" href="style/couleur_navbar.css">
+    <link rel="stylesheet" href="style/boutons.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
     <title>Alkeya - Développeurs de produits sur mesure</title>
 </head>
-<body>
-<div class="contenu large-w1140p">
-    <header class="flex-container">
-        <div class="logo"></div>
-        <menu>Menu</menu>
-    </header>
 
-    <p class="accroche">Nous sommes développeurs de produits sur-mesure</p>
-    <div class="flex-container-h">
-        <a href="#" class="lien-pilule flex-item-center">En savoir plus</a>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="logo navbar-brand page-scroll" href="#page-top"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a class="page-scroll" href="#page-top"></a>
+                </li>
+                <li><a class="page-scroll" href="#equipe">Équipe</a></li>
+                <li><a class="page-scroll" href="#philosophie">Philosophie</a></li>
+                <li><a class="page-scroll" href="#references">Références</a></li>
+                <li><a class="page-scroll" href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </div>
-</div>
+</nav>
+
+<!-- Intro -->
+<section id="intro" class="section-intro">
+    <div class="container">
+        <p class="accroche txt-pale">Nous sommes développeurs de produits sur-mesure.</p>
+        <div class="text-center">
+            <a class="btn-pilule page-scroll txt-pale"  href="#equipe">En savoir plus</a>
+        </div>
+        <div class="row podium">
+            <div class="col-xs-4"><img src="images/portraits/pj.png" class="img-responsive" /></div>
+            <div class="col-xs-4"><img src="images/portraits/christophe.png" class="img-responsive" /></div>
+            <div class="col-xs-4"><img src="images/portraits/romain.png" class="img-responsive" /></div>
+        </div>
+    </div>
+</section>
+
+<!--Equipe -->
+<section id="equipe" class="section-equipe">
+    <div class="container">
+        <p class="accroche txt-fonce">3 développeurs passionés.</p>
+        <p class="txt-clair text-center">Fondée en 2017 par 3 amis de longue date, Alkeya est une structure...</p>
+        <div class="row podium txt-fonce">
+            <div class="presentation col-xs-4">
+                <img src="images/portraits/pj_mini.png" id="portrait_pj" class="img-responsive" />
+                <div class="text-center">
+                    <p class="nom">Pierre Julien D'alberto</p>
+                    <p class="role">Co-Fondateur & Développeur</p>
+                    <hr id="separateur_pj"/>
+                    <p class="metier_artisan">Le forgeron</p>
+                    <p class="biographie">Lorem ipsum dolores sit lorem ipsum</p>
+                </div>
+            </div>
+
+            <div class="presentation col-xs-4">
+                <img src="images/portraits/christophe_mini.png" id="portrait_christophe" class="img-responsive" />
+                <div class="text-center">
+                    <p class="nom">Christophe Cadilhac</p>
+                    <p class="role">Co-Fondateur & Développeur</p>
+                    <hr id="separateur_christophe"/>
+                    <p class="metier_artisan">L'ébéniste</p>
+                    <p class="biographie">Lorem ipsum dolores</p>
+                </div>
+            </div>
+
+            <div class="presentation col-xs-4">
+                <img src="images/portraits/romain_mini.png" id="portrait_romain" class="img-responsive" />
+                <div class="text-center">
+                    <p class="nom">Romain Aubineau</p>
+                    <p class="role">Co-Fondateur & Développeur</p>
+                    <hr id="separateur_romain"/>
+                    <p class="metier_artisan">Le tailleur de pierre</p>
+                    <p class="biographie">Lorem ipsum dolores sit lorem dolore sit</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="philosophie" class="section-philosophie">
+    <div class="container">
+        <p class="accroche txt-fonce">Nous travaillons bien. Nous livrons souvent. Nous aimons le changement.</p>
+    </div>
+</section>
+
+<section id="references" class="section-references">
+    <div class="container">
+        <p class="accroche txt-fonce">Les produits que nous développons avec nos clients.</p>
+    </div>
+</section>
+
+<section id="contact" class="section-contact">
+    <div class="container">
+        <p class="accroche txt-fonce">Besoin d'un renseignement ? Nous sommes disponibles.</p>
+    </div>
+</section>
+
 </body>
 </html>
