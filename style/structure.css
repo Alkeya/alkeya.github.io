@@ -27,9 +27,18 @@ body {
 }
 
 .accroche {
+    text-align: center;
+}
+
+.accroche h1 {
     font-family: Lato-MediumItalic;
     font-size: 4rem;
-    text-align: center;
+    margin:0 0 2rem 0;
+    padding:0;
+}
+
+.accroche p {
+    font-family: Lato-Semibold;
 }
 
 section {
@@ -52,7 +61,10 @@ section .container .podium {
 .section-intro {
     background: #5498a9;
 }
-
+.section-intro .accroche a {
+    display: inline-block;
+    margin-top:4rem;
+}
 .section-intro .podium div {
     margin-top: auto;
 }
