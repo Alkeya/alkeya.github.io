@@ -1,0 +1,18 @@
+.section-intro {
+    background: #5498a9;
+}
+.section-intro .accroche a {
+    display: inline-block;
+    margin-top:4rem;
+}
+.section-intro .podium div {
+    margin-top: auto;
+}
+
+.section-intro img {
+    width:100%;
+}
+
+.section-intro a:hover {
+    text-decoration: none;
+}
