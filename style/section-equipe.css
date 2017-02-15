@@ -1,5 +1,5 @@
 .section-equipe .podium div {
-    margin-top:3rem;
+    margin-top:2.5rem;
 }
 
 .section-equipe img {
@@ -9,11 +9,28 @@
     border: 10px solid;
     background-color: white;
     margin-bottom: 1rem;
+    width:100%;
+    -webkit-transition: .1s ease-out;
+    transition: .1s ease-out;
+}
+
+.section-equipe #portrait_pj:hover {
+    background-color: #2ba4c2;
+}
+
+.section-equipe #portrait_christophe:hover {
+    background-color: #2bc2a7;
+}
+
+.section-equipe #portrait_romain:hover {
+    background-color: #bb6c47;
 }
 
 .section-equipe .presentation {
     quotes: "\00AB" "\00BB";
+    margin: .5rem;
 }
+
 .section-equipe .presentation .nom {
     font-family:Lato-Semibold;
     font-size:2.2rem;
@@ -36,10 +53,12 @@
     color: #2ba4c2;
     background-color: #2ba4c2;
 }
+
 .section-equipe .presentation hr[id=separateur_christophe] {
     color: #2bc2a7;
     background-color: #2bc2a7;
 }
+
 .section-equipe .presentation hr[id=separateur_romain] {
     color: #bb6c47;
     background-color: #bb6c47;
@@ -60,9 +79,11 @@
 .section-equipe .presentation .metier_artisan:before {
     content: open-quote;
 }
+
 .section-equipe .presentation .metier_artisan:after {
     content: close-quote;
 }
+
 .section-equipe #portrait_pj {
     border-color: #2ba4c2;
 }
