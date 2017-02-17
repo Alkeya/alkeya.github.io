@@ -40,12 +40,17 @@
 
 .section-references .projets {
     flex: 1;
+    display: flex;
+    overflow: hidden;
 }
 
 .section-references .projets .projet {
     display: flex;
     height: 100%;
+    flex: 1 0 100%;
+    order: 2;
 }
+
 .section-references .projets .projet .description {
     flex: 4;
     height: 100%;
@@ -55,6 +60,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .section-references .projets .projet .visuel {
     flex: 6;
     margin-right: 55px;
@@ -62,16 +68,19 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .section-references .projets .projet .description h4 {
     font-family:Lato-Bold;
     font-size:2rem;
     margin-bottom: 2rem;
 }
+
 .section-references .projets .projet .description p {
     font-family:Lato-Regular;
     margin:0;
     padding:0;
 }
+
 .section-references .projets .projet .description hr {
     height:1rem;
     background-color: #5498a9;
@@ -82,17 +91,37 @@
     padding: 0;
     width: 25%;
 }
+
 .section-references .projets .projet .description .details_techniques {
     text-align: right;
     font-family: Lato-Regular;
     font-size: 1.1rem;
 }
+
 .section-references .projets .projet .visuel img {
     max-width: 100%;
     max-height: 100%;
     box-shadow: 1px 1px 12px #555;
 }
+
 .section-references .projets .projet .visuel {
     margin-top: 20px;
     margin-bottom: 5px;
+}
+
+.section-references .projets .projet_affiche {
+    order: 1;
+}
+
+.section-references .projets {
+    transform: translateX(100%);
+}
+
+.section-references .projets.defilement_inverse {
+    transform: translateX(-100%);
+}
+
+.section-references .projets.animation_finie {
+    transform: none;
+    transition: transform 1s cubic-bezier(.23, 1, .32, 1)
 }
