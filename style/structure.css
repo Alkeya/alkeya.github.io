@@ -21,12 +21,6 @@ body {
     padding-top: .5rem;
 }
 
-.logo {
-    background-image: url("../images/logo.png");
-    width: 166px;
-    height: 32px;
-}
-
 .accroche {
     text-align: center;
 }

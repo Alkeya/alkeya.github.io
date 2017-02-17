@@ -26,7 +26,6 @@ $(function() {
   }
 });
 
-
 var carrousel = function($carrousel) {
   var afficher = function(p) {
     projet(projets.courant()).masquer();
