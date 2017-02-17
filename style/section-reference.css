@@ -11,9 +11,13 @@
     flex-direction: column;
 }
 
+.section-references .fleche:hover {
+    cursor: pointer;
+}
+
 .section-references #fleche_gauche {
     background: url("../images/fleche_gauche.png") right center no-repeat;
-    margin-left: 7px;
+    margin-left: 20px;
 }
 
 .section-references #fleche_gauche:hover {
@@ -22,7 +26,7 @@
 
 .section-references #fleche_droite {
     background: url("../images/fleche_droite.png") left center no-repeat;
-    margin-right: 7px;
+    margin-right: 20px;
 }
 
 .section-references #fleche_droite:hover {
