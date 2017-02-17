@@ -37,3 +37,58 @@
 .section-references .projets {
     flex: 1;
 }
+
+.section-references .projets .projet {
+    display: flex;
+    height: 100%;
+}
+.section-references .projets .projet .description {
+    flex: 4;
+    height: 100%;
+    margin-left: 55px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-references .projets .projet .visuel {
+    flex: 6;
+    margin-right: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-references .projets .projet .description h4 {
+    font-family:Lato-Bold;
+    font-size:2rem;
+    margin-bottom: 2rem;
+}
+.section-references .projets .projet .description p {
+    font-family:Lato-Regular;
+    margin:0;
+    padding:0;
+}
+.section-references .projets .projet .description hr {
+    height:1rem;
+    background-color: #5498a9;
+    color: #5498a9;
+    border-radius: 2px;
+    align-self: flex-end;
+    margin:1rem 0 2rem 0;
+    padding: 0;
+    width: 25%;
+}
+.section-references .projets .projet .description .details_techniques {
+    text-align: right;
+    font-family: Lato-Regular;
+    font-size: 1.1rem;
+}
+.section-references .projets .projet .visuel img {
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 1px 1px 12px #555;
+}
+.section-references .projets .projet .visuel {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}

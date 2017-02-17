@@ -18,6 +18,11 @@
     src: url("fonts/LatoLatin-Regular.woff");
 }
 
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url("fonts/LatoLatin-Bold.woff");
+}
+
 @media screen and (max-width: 400px) {
     html { font-size: 8px; }
 }
