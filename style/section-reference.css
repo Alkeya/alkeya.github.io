@@ -34,7 +34,7 @@
 }
 
 .section-references #fleche_gauche, .section-references #fleche_droite {
-    background-size: 40px 40px;
+    background-size: 40px;
     transition: background-position-x .2s ease;
 }
 
@@ -54,32 +54,28 @@
 .section-references .projets .projet .description {
     flex: 4;
     height: 100%;
-    margin-left: 55px;
+    margin-left: 20px;
     margin-right: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family:Lato-Regular;
+    font-size: 1.4rem;
+    padding:0;
 }
 
 .section-references .projets .projet .visuel {
     flex: 6;
-    margin-right: 55px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:12px; /* Pour que l'ombre des img soit toujours visible. */
+    padding:20px; /* Pour que l'ombre des img soit toujours visible. */
 }
 
 .section-references .projets .projet .description h4 {
     font-family:Lato-Bold;
     font-size:2rem;
     margin-bottom: 2rem;
-}
-
-.section-references .projets .projet .description p {
-    font-family:Lato-Regular;
-    margin:0;
-    padding:0;
 }
 
 .section-references .projets .projet .description hr {
@@ -130,6 +126,9 @@
     }
     .section-references .projets .projet .description {
         margin:0;
+        justify-content: flex-start;
+        height: auto;
+        flex: auto;
     }
     .section-references .projets .projet .visuel {
         justify-content: center ;
@@ -139,5 +138,17 @@
     .section-references .projets .projet .visuel img {
         max-width: 400px;
         margin:auto;
+    }
+    .section-references .fleche {
+        width: 35px;
+    }
+    .section-references #fleche_gauche, .section-references #fleche_droite {
+        background-size: 20px;
+    }
+    .section-references #fleche_gauche {
+        margin-left: 10px;
+    }
+    .section-references #fleche_droite {
+        margin-right: 10px;
     }
 }
