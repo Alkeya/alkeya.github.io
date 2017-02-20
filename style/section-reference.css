@@ -136,7 +136,7 @@
         flex: auto;
     }
     .section-references .projets .projet .visuel {
-        justify-content: center ;
+        justify-content: flex-start;
         align-content: center;
         margin:0;
     }
