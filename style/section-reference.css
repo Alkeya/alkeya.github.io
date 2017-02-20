@@ -119,8 +119,8 @@
     transition: transform 1s cubic-bezier(.23, 1, .32, 1)
 }
 
-/** Sous 800px de large, on stack en vertical la description et le visuel */
-@media screen and (max-width: 800px) {
+/** Sous 768px de large, on stack en vertical la description et le visuel */
+@media screen and (max-width: 767px) {
     .section-references .projets .projet {
         flex-direction: column;
     }

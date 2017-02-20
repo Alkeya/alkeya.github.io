@@ -23,10 +23,10 @@
     src: url("fonts/LatoLatin-Bold.woff");
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     html { font-size: 9px; }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     html { font-size: 8px; }
 }
 
