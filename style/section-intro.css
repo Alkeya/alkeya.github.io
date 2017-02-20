@@ -1,19 +1,131 @@
 .section-intro {
+    min-height: 100%;
+    height: auto;
     background: #5498a9;
+}
+
+.section-intro .accroche {
+    margin-bottom: 2rem;
 }
 
 .section-intro .accroche a {
     display: inline-block;
-    margin-top:4rem;
-}
-.section-intro .podium div {
-    margin-top: auto;
+    margin-top:2rem;
 }
 
-.section-intro img {
-    max-width:100%;
+.section-intro .podium {
+    position: relative;
+    min-height: 489px;
+}
+
+.section-intro .podium div {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.section-intro .podium div:first-child {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-intro .podium div:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-intro .podium div {
+    margin-top: auto; /* Colle les portraits en bas */
 }
 
 .section-intro a:hover {
     text-decoration: none;
+}
+
+.section-intro .podium {
+    flex-direction: row;
+    justify-content: center;
+}
+
+/** Pour les résolutions larges on serre l'equipe pour plus de cohésion */
+@media screen and (min-width: 1000px) {
+    .section-intro .podium div:first-child {
+        left: 10vw;
+    }
+    .section-intro .podium div:last-child {
+        right: 10vw;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .section-intro .podium div:first-child {
+        left: 13vw;
+    }
+    .section-intro .podium div:last-child {
+        right: 13vw;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .section-intro .podium div:first-child {
+        left: 16vw;
+    }
+    .section-intro .podium div:last-child {
+        right: 16vw;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .section-intro .podium div:first-child {
+        left: 20vw;
+    }
+    .section-intro .podium div:last-child {
+        right: 20vw;
+    }
+}
+/* Pour les résolutions étroites, on écarte pour ne pas voir qu'un portrait */
+@media screen and (max-width: 700px) {
+    .section-intro .podium div:first-child {
+        left: -13%;
+    }
+    .section-intro .podium div:last-child {
+        right: -13%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .section-intro .podium div:first-child {
+        left: -25vw;
+    }
+    .section-intro .podium div:last-child {
+        right: -25vw;
+    }
+}
+@media screen and (max-width: 445px) {
+    .section-intro .podium div:first-child {
+        left: -31vw;
+    }
+    .section-intro .podium div:last-child {
+        right: -31vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    .section-intro .podium div:first-child {
+        left: -37vw;
+    }
+    .section-intro .podium div:last-child {
+        right: -37vw;
+    }
+}
+@media screen and (max-width: 360px) {
+    .section-intro .podium div:first-child {
+        left: -45vw;
+    }
+    .section-intro .podium div:last-child {
+        right: -45vw;
+    }
 }
