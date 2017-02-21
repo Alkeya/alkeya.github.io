@@ -12,14 +12,17 @@ body {
 
 .navbar {
     background-color: inherit;
-    border: none;
     padding: .3rem;
     margin: 0;
     font-size:1.9rem;
+    border-top: 15px solid #1e1e1e;
+    border-right: 15px solid #1e1e1e;
+    border-left: 15px solid #1e1e1e;
+    border-bottom: none;
 }
 
 .navbar-brand {
-    padding-top: .5rem;
+    padding-top: 7px;
 }
 
 .accroche {
@@ -43,10 +46,13 @@ body {
 section {
     min-height:100%;
     height: 100%;
-    padding-top: 75px;
+    padding-top: 100px;
     background-color: #f7f8f9;
     display: flex;
     flex-direction: column;
+    border-right: 15px solid #1e1e1e;
+    border-left: 15px solid #1e1e1e;
+    border-bottom: 15px solid #1e1e1e;
 }
 
 section .container {
