@@ -1,5 +1,19 @@
-.section-equipe .podium div {
+.section-equipe {
+    height: auto;
+}
+
+.section-equipe .podium {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 8vw 0 8vw;
+}
+
+.section-equipe .presentation {
+    quotes: "\00AB" "\00BB";
     margin-top:2.5rem;
+    width: 25%;
+    max-width: 310px;
+    min-height: 640px;
 }
 
 .section-equipe img {
@@ -24,11 +38,6 @@
 
 .section-equipe #portrait_romain:hover {
     background-color: #bb6c47;
-}
-
-.section-equipe .presentation {
-    quotes: "\00AB" "\00BB";
-    margin: .5rem;
 }
 
 .section-equipe .presentation .nom {
@@ -72,7 +81,7 @@
 
 .section-equipe .presentation .biographie {
     font-family: Lato-Regular;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 1rem 0;
 }
 
@@ -94,4 +103,25 @@
 
 .section-equipe #portrait_romain {
     border-color: #bb6c47;
+}
+
+/* On stack en vertical pour les résolutions basses. */
+@media screen and (max-width: 800px){
+    .section-equipe .podium {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-equipe .presentation {
+        width: 90%;
+        max-width: none;
+        min-height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .section-equipe img {
+        max-width: 310px;
+    }
 }
