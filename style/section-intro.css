@@ -2,6 +2,7 @@
     min-height: 100%;
     height: auto;
     background: #5498a9;
+    overflow-x: hidden;
 }
 
 .section-intro .accroche {
