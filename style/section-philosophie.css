@@ -1,0 +1,79 @@
+.section-philosophie {
+    min-height:745px;
+}
+.section-philosophie .podium {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 3rem
+}
+
+.section-philosophie .podium .competence {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 85%;
+}
+
+.section-philosophie .podium .competence.developpements {
+    width: 40%;
+}
+.section-philosophie .podium .competence.methodes {
+    width: 55%;
+}
+
+.section-philosophie .podium .competence .nom {
+    font-family: Lato-Bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: .3rem;
+}
+
+.section-philosophie .podium .competence .slogan {
+    font-family: Lato-SemiboldItalic;
+    font-size: 1.7rem;
+    margin:0;
+}
+
+.section-philosophie .podium .competence hr {
+    height: 1rem;
+    width: 20%;
+    border-radius: 2px;
+    margin: 1rem 0 3rem 0;
+}
+
+.section-philosophie .podium .competence.developpements hr {
+    color: #2ba4c2;
+    background-color: #2ba4c2;
+}
+
+.section-philosophie .podium .competence.methodes hr {
+    color: #2bc2a7;
+    background-color: #2bc2a7;
+}
+
+.section-philosophie .podium .competence .details {
+    font-size: 1.3rem;
+    font-family:Lato-Regular;
+    text-align: center;
+    width:80%;
+}
+
+.section-philosophie .podium .competence .details p {
+    margin-bottom: .3rem;
+}
+
+.section-philosophie .podium .competence .illustration {
+    flex:1;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 85%;
+}
+
+.section-philosophie .podium .competence .illustration img {
+    max-width: 90%;
+    max-height: 90%;
+}
