@@ -19,14 +19,35 @@ body {
     border-left: 15px solid #1e1e1e;
     border-bottom: none;
 }
+
+/* Pour le changement de couleur de navbar en douceur. */
 .navbar,
 .navbar-autre .navbar-nav > .active > a,
 .navbar-autre .navbar-nav > .active > a:hover,
 .navbar-autre .navbar-nav > .active > a:focus {
     transition: background-color .5s;
 }
+
 .navbar-brand {
-    padding-top: 7px;
+    margin: 7px 0 0 15px;
+    padding:0;
+    width: 166px;
+    height: 32px;
+    overflow: hidden;
+}
+
+.navbar-brand img {
+    opacity:1;
+}
+.navbar-brand img.masque {
+    opacity: 0;
+}
+.navbar-brand .logo_fonce {
+    position:relative;
+    top:-32px;
+}
+navbar-brand img {
+    transition: opacity .5s;
 }
 
 .accroche {

@@ -21,6 +21,8 @@ $(function() {
 
   function binderLeChangementDeNavbar() {
     var navbar = $('.navbar');
+    var logoClair = $('.navbar .navbar-brand .logo_clair');
+    var logoFonce = $('.navbar .navbar-brand .logo_fonce');
 
     $(document).scroll(function () {
       if (nomDeLaSectionActive() === '#intro')
@@ -36,11 +38,15 @@ $(function() {
     function passerNavbarEnIntro() {
       navbar.removeClass('navbar-autre');
       navbar.addClass('navbar-intro');
+      logoClair.removeClass('masque')
+      logoFonce.addClass('masque');
     }
 
     function passerNavbarEnAutre() {
       navbar.removeClass('navbar-intro');
       navbar.addClass('navbar-autre');
+      logoClair.addClass('masque');
+      logoFonce.removeClass('masque');
     }
   }
 });
