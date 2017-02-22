@@ -77,3 +77,31 @@
     max-width: 90%;
     max-height: 90%;
 }
+
+/* On stack en vertical pour les petites résolutions. */
+@media screen and (max-width: 800px) {
+    .section-philosophie {
+        height: auto;
+    }
+    .section-philosophie .podium {
+        flex-direction: column;
+    }
+    .section-philosophie .podium .competence {
+        height: auto;
+        margin-bottom:3rem;
+    }
+    .section-philosophie .podium .competence.developpements,
+    .section-philosophie .podium .competence.methodes {
+        width: 100%;
+    }
+    .section-philosophie .podium .competence hr {
+        margin-bottom: 1.5rem;
+    }
+    .section-philosophie .podium .competence .details {
+        width: 65%;
+    }
+    .section-philosophie .podium .competence .illustration {
+        width:50%;
+        margin-top: 1.2rem;
+    }
+}
