@@ -38,7 +38,7 @@ $(function() {
     function passerNavbarEnIntro() {
       navbar.removeClass('navbar-autre');
       navbar.addClass('navbar-intro');
-      logoClair.removeClass('masque')
+      logoClair.removeClass('masque');
       logoFonce.addClass('masque');
     }
 
