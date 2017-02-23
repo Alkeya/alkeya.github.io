@@ -28,20 +28,20 @@ Puis .navbar-default est remplacé par .navbar-intro
 .navbar-intro .navbar-nav > .active > a:hover,
 .navbar-intro .navbar-nav > .active > a:focus {
     color: #295661;
-    background-color: #5498a9;
+    background-color: transparent;
 }
 .navbar-intro .navbar-nav > .open > a,
 .navbar-intro .navbar-nav > .open > a:hover,
 .navbar-intro .navbar-nav > .open > a:focus {
     color: #295661;
-    background-color: #5498a9;
+    background-color: transparent;
 }
 .navbar-intro .navbar-toggle {
     border-color: #5498a9;
 }
 .navbar-intro .navbar-toggle:hover,
 .navbar-intro .navbar-toggle:focus {
-    background-color: #5498a9;
+    background-color: transparent;
 }
 .navbar-intro .navbar-toggle .icon-bar {
     background-color: #ffffff;
@@ -69,6 +69,6 @@ Puis .navbar-default est remplacé par .navbar-intro
     .navbar-intro .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar-intro .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: #295661;
-        background-color: #5498a9;
+        background-color: transparent;
     }
 }

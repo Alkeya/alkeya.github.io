@@ -28,20 +28,20 @@ Puis .navbar-default est remplacé par .navbar-autre
 .navbar-autre .navbar-nav > .active > a:hover,
 .navbar-autre .navbar-nav > .active > a:focus {
     color: #474747;
-    background-color: #f7f8f9;
+    background-color: transparent;
 }
 .navbar-autre .navbar-nav > .open > a,
 .navbar-autre .navbar-nav > .open > a:hover,
 .navbar-autre .navbar-nav > .open > a:focus {
     color: #474747;
-    background-color: #f7f8f9;
+    background-color: transparent;
 }
 .navbar-autre .navbar-toggle {
     border-color: #f7f8f9;
 }
 .navbar-autre .navbar-toggle:hover,
 .navbar-autre .navbar-toggle:focus {
-    background-color: #f7f8f9;
+    background-color: transparent;
 }
 .navbar-autre .navbar-toggle .icon-bar {
     background-color: #999999;
@@ -69,6 +69,6 @@ Puis .navbar-default est remplacé par .navbar-autre
     .navbar-autre .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar-autre .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: #474747;
-        background-color: #f7f8f9;
+        background-color: transparent;
     }
 }
