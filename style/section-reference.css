@@ -121,10 +121,22 @@
     transition: transform 1s cubic-bezier(.23, 1, .32, 1)
 }
 
-/** Sous 768px de large, on stack en vertical la description et le visuel */
+/** Sous 768px de large on stack en vertical la description et le visuel et les flèches viennent sous le carrousel */
 @media screen and (max-width: 767px) {
     .section-references {
-        min-height: 700px;
+        min-height: unset;
+        height: auto;
+    }
+    .section-references .podium {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section-references .projets {
+        order: 1;
+        width: 100%;
+        flex: auto;
+        margin-left: 35px;
+        margin-right: 35px;
     }
     .section-references .projets .projet {
         flex-direction: column;
@@ -141,15 +153,18 @@
         margin:0;
     }
     .section-references .fleche {
-        width: 35px;
+        width: 20%;
+        height:40px;
     }
     .section-references #fleche_gauche, .section-references #fleche_droite {
-        background-size: 20px;
+        background-size: 35px;
     }
     .section-references #fleche_gauche {
-        margin-left: 10px;
+        order:2;
+        margin:0 10% 0 0;
     }
     .section-references #fleche_droite {
-        margin-right: 10px;
+        order:3;
+        margin:0 0 0 10%;
     }
 }
