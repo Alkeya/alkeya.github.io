@@ -1,6 +1,5 @@
 .section-intro {
     min-height: 100%;
-    height: auto;
     background: #5498a9;
     overflow-x: hidden;
 }
@@ -23,6 +22,8 @@
     z-index: 2;
     display: flex;
     justify-content: center;
+    width: 380px;
+    height: 489px;
 }
 
 .section-intro .podium div:first-child {
