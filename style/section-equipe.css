@@ -6,6 +6,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 2rem 8vw 0 8vw;
+    flex: auto;
 }
 
 .section-equipe .presentation {
