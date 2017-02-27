@@ -1,14 +1,14 @@
-.section-philosophie {
+.section-services {
     min-height:745px;
 }
-.section-philosophie .podium {
+.section-services .podium {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     padding-top: 3rem
 }
 
-.section-philosophie .podium .competence {
+.section-services .podium .competence {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -16,55 +16,55 @@
     height: 85%;
 }
 
-.section-philosophie .podium .competence.developpements {
+.section-services .podium .competence.developpements {
     width: 40%;
 }
-.section-philosophie .podium .competence.methodes {
+.section-services .podium .competence.methodes {
     width: 55%;
 }
 
-.section-philosophie .podium .competence .nom {
+.section-services .podium .competence .nom {
     font-family: Lato-Bold;
     font-size: 2rem;
     text-transform: uppercase;
     margin-bottom: .3rem;
 }
 
-.section-philosophie .podium .competence .slogan {
+.section-services .podium .competence .slogan {
     font-family: Lato-SemiboldItalic;
     font-size: 1.7rem;
     margin:0;
 }
 
-.section-philosophie .podium .competence hr {
+.section-services .podium .competence hr {
     height: 1rem;
     width: 20%;
     border-radius: 2px;
     margin: 1rem 0 3rem 0;
 }
 
-.section-philosophie .podium .competence.developpements hr {
+.section-services .podium .competence.developpements hr {
     color: #2ba4c2;
     background-color: #2ba4c2;
 }
 
-.section-philosophie .podium .competence.methodes hr {
+.section-services .podium .competence.methodes hr {
     color: #2bc2a7;
     background-color: #2bc2a7;
 }
 
-.section-philosophie .podium .competence .details {
+.section-services .podium .competence .details {
     font-size: 1.3rem;
     font-family:Lato-Regular;
     text-align: center;
     width:80%;
 }
 
-.section-philosophie .podium .competence .details p {
+.section-services .podium .competence .details p {
     margin-bottom: .3rem;
 }
 
-.section-philosophie .podium .competence .illustration {
+.section-services .podium .competence .illustration {
     flex:1;
     display: flex;
     flex-direction:column;
@@ -73,34 +73,34 @@
     width: 85%;
 }
 
-.section-philosophie .podium .competence .illustration img {
+.section-services .podium .competence .illustration img {
     max-width: 90%;
     max-height: 90%;
 }
 
 /* On stack en vertical pour les petites résolutions. */
 @media screen and (max-width: 800px) {
-    .section-philosophie {
+    .section-services {
         height: auto;
     }
-    .section-philosophie .podium {
+    .section-services .podium {
         flex-direction: column;
     }
-    .section-philosophie .podium .competence {
+    .section-services .podium .competence {
         height: auto;
         margin-bottom:3rem;
     }
-    .section-philosophie .podium .competence.developpements,
-    .section-philosophie .podium .competence.methodes {
+    .section-services .podium .competence.developpements,
+    .section-services .podium .competence.methodes {
         width: 100%;
     }
-    .section-philosophie .podium .competence hr {
+    .section-services .podium .competence hr {
         margin-bottom: 1.5rem;
     }
-    .section-philosophie .podium .competence .details {
+    .section-services .podium .competence .details {
         width: 65%;
     }
-    .section-philosophie .podium .competence .illustration {
+    .section-services .podium .competence .illustration {
         width:50%;
         margin-top: 1.2rem;
     }
