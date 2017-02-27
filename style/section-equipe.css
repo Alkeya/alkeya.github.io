@@ -14,7 +14,6 @@
     margin-top:2.5rem;
     width: 25%;
     max-width: 310px;
-    min-height: 640px;
 }
 
 .section-equipe img {
@@ -116,7 +115,6 @@
     .section-equipe .presentation {
         width: 90%;
         max-width: none;
-        min-height: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
