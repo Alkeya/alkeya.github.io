@@ -128,12 +128,13 @@
         height: auto;
     }
     .section-references .podium {
+        flex: auto;
         flex-wrap: wrap;
         justify-content: center;
     }
     .section-references .projets {
         order: 1;
-        width: 100%;
+        width: 85%;
         flex: auto;
         margin-left: 35px;
         margin-right: 35px;
@@ -151,6 +152,7 @@
         justify-content: flex-start;
         align-content: center;
         margin:0;
+        flex:auto;
     }
     .section-references .fleche {
         width: 20%;
