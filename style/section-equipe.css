@@ -121,6 +121,9 @@
         justify-content: flex-start;
         align-items: center;
     }
+    .section-equipe .presentation div {
+        width: 100%;
+    }
     .section-equipe img {
         max-width: 310px;
     }
