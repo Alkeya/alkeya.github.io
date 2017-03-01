@@ -102,6 +102,7 @@
     max-width: 85%;
     max-height: 85%;
     box-shadow: 1px 1px 12px #555;
+    flex-shrink:0;
 }
 
 .section-references .projets .projet_affiche {
