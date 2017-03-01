@@ -2,6 +2,7 @@ $(function() {
 
   binderLeScrolling();
   binderLeChangementDeNavbar();
+  binderLeMasquageDuMenuResponsive();
 
   function binderLeScrolling() {
 
@@ -48,5 +49,18 @@ $(function() {
       logoClair.addClass('masque');
       logoFonce.removeClass('masque');
     }
+  }
+
+  function binderLeMasquageDuMenuResponsive() {
+    var contenuDeNavbar = $('.navbar-collapse');
+    var surLesLiens = 'a';
+    contenuDeNavbar.on('click', surLesLiens, null, function() {
+      contenuDeNavbar.collapse('hide');
+    });
+
+    var logo = $('.navbar-brand');
+    logo.on('click', function() {
+      contenuDeNavbar.collapse('hide');
+    });
   }
 });
