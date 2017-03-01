@@ -35,6 +35,8 @@ body {
 
 .navbar-brand img {
     opacity:1;
+    width:166px;
+    height:32px;
 }
 .navbar-brand img.masque {
     opacity: 0;
