@@ -42,3 +42,8 @@
 .txt-pale {
     color: white;
 }
+
+a.easter{
+  text-decoration: none;
+  color: #474747;
+}
