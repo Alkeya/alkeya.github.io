@@ -6,11 +6,19 @@
 
 .section-intro .accroche {
     margin-bottom: 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.section-intro .accroche h1 {
+    width: 100%;
 }
 
 .section-intro .accroche a {
     display: inline-block;
-    margin-top:2rem;
 }
 
 .section-intro .podium {
