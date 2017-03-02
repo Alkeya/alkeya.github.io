@@ -1,4 +1,8 @@
 @font-face {
+    font-family: 'Lato-HeavyItalic';
+    src: url("fonts/LatoLatin-HeavyItalic.woff");
+}
+@font-face {
     font-family: 'Lato-MediumItalic';
     src: url("fonts/LatoLatin-MediumItalic.woff");
 }
