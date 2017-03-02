@@ -14,6 +14,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 85%;
+    flex-shrink: 0;
 }
 
 .section-services .podium .competence.developpements {
