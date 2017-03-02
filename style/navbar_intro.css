@@ -37,7 +37,7 @@ Puis .navbar-default est remplacé par .navbar-intro
     background-color: transparent;
 }
 .navbar-intro .navbar-toggle {
-    border-color: #ffffff;
+    border-color: transparent;
 }
 .navbar-intro .navbar-toggle:hover,
 .navbar-intro .navbar-toggle:focus {
