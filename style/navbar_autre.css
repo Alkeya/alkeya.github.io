@@ -58,6 +58,9 @@ Puis .navbar-default est remplacé par .navbar-autre
 }
 
 @media (max-width: 767px) {
+    .navbar-autre .navbar-collapse {
+        background-color: #f7f8f9;
+    }
     .navbar-autre .navbar-nav .open .dropdown-menu > li > a {
         color: #999999;
     }
