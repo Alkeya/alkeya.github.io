@@ -86,3 +86,10 @@ section .container .podium, section .podium {
     flex: 1;
     display: flex;
 }
+
+@media screen and (max-width: 767px) {
+
+    .invisible_en_etroit {
+        display: none !important;
+    }
+}
