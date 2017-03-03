@@ -98,7 +98,7 @@
         right: 20vw;
     }
 }
-/* Pour les résolutions étroites, on écarte pour ne pas voir qu'un portrait */
+/* Pour les résolutions étroites, on écarte pour ne pas voir qu'un buste */
 @media screen and (max-width: 700px) {
     .section-intro .podium div:first-child {
         left: -13%;
