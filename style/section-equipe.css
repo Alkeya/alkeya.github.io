@@ -106,7 +106,7 @@
 }
 
 /* On stack en vertical pour les résolutions basses. */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 767px){
     .section-equipe .podium {
         flex-direction: column;
         justify-content: center;

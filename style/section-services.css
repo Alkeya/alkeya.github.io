@@ -80,7 +80,7 @@
 }
 
 /* On stack en vertical pour les petites résolutions. */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     .section-services {
         height: auto;
     }
