@@ -22,120 +22,47 @@
 }
 
 .section-intro .podium {
+    flex-direction: row;
+    justify-content: center;
     position: relative;
-    min-height: 489px;
+    margin-left:5%;
+    margin-right: 5%;
+    min-height: 320px; /* Pour éviter que les bustes passent au-dessus de l'accroche. */
 }
 
 .section-intro .podium div {
     z-index: 2;
-    display: flex;
-    justify-content: center;
-    width: 380px;
-    height: 489px;
+    width:33%;
+    max-width: 380px;
+    min-width: 170px;
+    position: relative;
 }
-
-.section-intro .podium div:first-child {
+/* On colle les bustes en bas de section avec du absolute à cause d'IE 11. Si on flexbox, la taille des images ne s'adapte pas. */
+.section-intro .podium div img {
+    width:100%;
     position: absolute;
     bottom: 0;
-    left: 10px;
-    z-index: 1;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.section-intro .podium div:last-child {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.section-intro .podium div {
-    margin-top: auto; /* Colle les portraits en bas */
 }
 
 .section-intro a:hover {
     text-decoration: none;
 }
 
-.section-intro .podium {
-    flex-direction: row;
-    justify-content: center;
-}
-
-/** Pour les résolutions larges on serre l'equipe pour plus de cohésion */
-@media screen and (min-width: 1000px) {
+/* En étroit on colle les bustes au bord de l'écran pour qu'il se rapprochent et ne se rétrecissent pas trop. */
+@media screen and (max-width: 767px) {
+    .section-intro .podium {
+        min-height: 230px;
+    }
     .section-intro .podium div:first-child {
-        left: 10vw;
+        position: absolute;
+        bottom: 0;
+        left:0;
+        z-index: 0;
     }
     .section-intro .podium div:last-child {
-        right: 10vw;
-    }
-}
-@media screen and (min-width: 1200px) {
-    .section-intro .podium div:first-child {
-        left: 13vw;
-    }
-    .section-intro .podium div:last-child {
-        right: 13vw;
-    }
-}
-@media screen and (min-width: 1400px) {
-    .section-intro .podium div:first-child {
-        left: 16vw;
-    }
-    .section-intro .podium div:last-child {
-        right: 16vw;
-    }
-}
-@media screen and (min-width: 1500px) {
-    .section-intro .podium div:first-child {
-        left: 20vw;
-    }
-    .section-intro .podium div:last-child {
-        right: 20vw;
-    }
-}
-/* Pour les résolutions étroites, on écarte pour ne pas voir qu'un buste */
-@media screen and (max-width: 700px) {
-    .section-intro .podium div:first-child {
-        left: -13%;
-    }
-    .section-intro .podium div:last-child {
-        right: -13%;
-    }
-}
-@media screen and (max-width: 500px) {
-    .section-intro .podium div:first-child {
-        left: -25vw;
-    }
-    .section-intro .podium div:last-child {
-        right: -25vw;
-    }
-}
-@media screen and (max-width: 445px) {
-    .section-intro .podium div:first-child {
-        left: -31vw;
-    }
-    .section-intro .podium div:last-child {
-        right: -31vw;
-    }
-}
-@media screen and (max-width: 400px) {
-    .section-intro .podium div:first-child {
-        left: -37vw;
-    }
-    .section-intro .podium div:last-child {
-        right: -37vw;
-    }
-}
-@media screen and (max-width: 360px) {
-    .section-intro .podium div:first-child {
-        left: -45vw;
-    }
-    .section-intro .podium div:last-child {
-        right: -45vw;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
     }
 }
