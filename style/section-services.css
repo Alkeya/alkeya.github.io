@@ -1,5 +1,6 @@
 .section-services {
     min-height:745px;
+    padding-top: 95px;
 }
 .section-services .podium {
     flex-direction: row;
@@ -15,13 +16,7 @@
     align-items: center;
     height: 85%;
     flex-shrink: 0;
-}
-
-.section-services .podium .competence.developpements {
-    width: 40%;
-}
-.section-services .podium .competence.methodes {
-    width: 55%;
+    width:45%;
 }
 
 .section-services .podium .competence .nom {
