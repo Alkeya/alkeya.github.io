@@ -1,5 +1,6 @@
 .section-references {
     min-height: 500px;
+    padding-top: 95px;
 }
 .section-references .podium {
     flex-direction: row;
