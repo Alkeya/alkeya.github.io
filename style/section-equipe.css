@@ -71,8 +71,10 @@
     font-weight: normal;
     font-style: normal;
     margin-top:1.3rem;
+    font-size: 1.3rem;
 }
 .section-equipe .presentation .signe_particulier {
+    font-size: 1.3rem;
     font-style: italic;
 }
 
@@ -127,6 +129,7 @@
     -webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;
     transition: color 0.3s;
+    background-position: center;
 }
 .portrait_hover:after {
     pointer-events: none;
