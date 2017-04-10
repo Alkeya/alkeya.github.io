@@ -38,7 +38,7 @@
 }
 
 .section-equipe #portrait_romain:hover {
-    background-color: #bb6c47;
+    background-color: #4ab9be;
 }
 
 .section-equipe .presentation .nom {
@@ -70,8 +70,8 @@
 }
 
 .section-equipe .presentation hr[id=separateur_romain] {
-    color: #bb6c47;
-    background-color: #bb6c47;
+    color: #4ab9be;
+    background-color: #4ab9be;
 }
 
 .section-equipe .presentation .metier_artisan {
@@ -117,7 +117,7 @@
 }
 
 .section-equipe #portrait_romain {
-    border-color: #bb6c47;
+    border-color: #4ab9be;
 }
 
 /* On stack en vertical pour les résolutions basses. */
