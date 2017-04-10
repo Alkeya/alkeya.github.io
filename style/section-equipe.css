@@ -169,7 +169,8 @@
 .portrait_hover div, .portrait_hover div * {
     font-size: 1.7rem;
     font-family: Lato-SemiboldItalic;
-    color: transparent;
+    color: white;
+    visibility: hidden;
 }
 .portrait_hover:hover div .separateur {
     height: 8px;
@@ -180,7 +181,7 @@
 
 }
 .portrait_hover:hover div, .portrait_hover:hover div * {
-    color: white;
+    visibility: visible;
 }
 .portrait_hover:hover:after {
     -webkit-transform: scale(1);
@@ -214,4 +215,24 @@
 }
 #portrait_hover_romain:after {
     background: #4ab9be;
+}
+
+.portrait_hover .suivez_moi:before {
+    content: 'Suivez-moi';
+    display:block;
+}
+
+.portrait_hover .suivez_moi a {
+    display: inline-block;
+    width: 38px;
+    height: 33px;
+    margin: 15px 5px;
+}
+
+.portrait_hover .suivez_moi .github {
+    background-image: url("../images/suivez_moi/github.png");
+}
+
+.portrait_hover .suivez_moi .linkedin {
+    background-image: url("../images/suivez_moi/linkedin.png");
 }
