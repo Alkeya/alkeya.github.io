@@ -82,8 +82,22 @@
 
 .section-equipe .presentation .biographie {
     font-family: Lato-Regular;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin: 1rem 0;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.section-equipe .presentation .signe_particulier:before {
+    font-family: Lato-Regular;
+    content: 'Signe particulier :';
+    display: block;
+    font-weight: normal;
+    font-style: normal;
+    margin-top:1.3rem;
+}
+.section-equipe .presentation .signe_particulier {
+    font-style: italic;
 }
 
 .section-equipe .presentation .metier_artisan:before {
