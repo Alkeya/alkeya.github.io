@@ -105,7 +105,7 @@
         width: 100%;
     }
     .section-equipe .presentation .portrait_hover {
-        width: 75vw;
+        width: 63vw;
         height: 75vw;
     }
     .section-equipe img {
@@ -116,7 +116,7 @@
 /* Effet hover inspiré de http://codepen.io/honglio/pen/FKyxG */
 .portrait_hover {
     cursor: pointer;
-    width: 19vw;
+    width: 16.5vw;
     height: 19vw;
     max-width: 310px;
     margin: 0 auto 25px auto;
