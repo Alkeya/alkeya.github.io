@@ -4,6 +4,10 @@ En local, le plus simple est de créer un serveur web qui sert le fichier index.
 * `python -m SimpleHTTPServer 8000`
 * Naviguer sur `http://localhost:8000/`
 
+### Pour déployer
+Nous utilisons _github pages_, avec notre domaine alkeya.com branché dessus. https://help.github.com/articles/using-a-custom-domain-with-github-pages/.  
+Chaque `git push` est donc un déployer en PROD automatiquement.
+
 ### Structure
 * Template "one page" du site inspiré par : https://blackrockdigital.github.io/startbootstrap-scrolling-nav/  
 
