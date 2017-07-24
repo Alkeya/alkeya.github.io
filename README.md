@@ -1,3 +1,9 @@
+###Pour développer
+En local, le plus simple est de créer un serveur web qui sert le fichier index.html :
+* Ouvrir un terminal dans le répertoire du repo git
+* `python -m SimpleHTTPServer 8000`
+* Naviguer sur `http://localhost:8000/`
+
 ###Structure
 * Template "one page" du site inspiré par : https://blackrockdigital.github.io/startbootstrap-scrolling-nav/  
 
