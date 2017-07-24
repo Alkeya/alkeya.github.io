@@ -3,124 +3,43 @@
     padding-top: 95px;
 }
 .section-references .podium {
-    flex-direction: row;
+    background: black;
+    padding: 0 8vw;
 }
 
-.section-references .fleche {
-    width: 70px;
-    height: 100%;
-    margin: auto;
+.section-references .podium .les-references {
     display: flex;
+    flex-wrap: wrap;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-around;
+    width:70%;
+    min-width: 735px;
+    padding-top: 2rem;
+}
+
+.section-references .podium .les-references .une-reference {
+    width:49%;
     justify-content: center;
-    flex-direction: column;
-}
-
-.section-references .fleche:hover {
-    cursor: pointer;
-}
-
-.section-references #fleche_gauche {
-    background: url("../images/fleche_gauche.png") right center no-repeat;
-    margin-left: 20px;
-}
-
-.section-references #fleche_gauche:hover {
-    background-position-x: left;
-}
-
-.section-references #fleche_droite {
-    background: url("../images/fleche_droite.png") left center no-repeat;
-    margin-right: 20px;
-}
-
-.section-references #fleche_droite:hover {
-    background-position-x: right;
-}
-
-.section-references #fleche_gauche, .section-references #fleche_droite {
-    background-size: 40px;
-    transition: background-position-x .2s ease;
-}
-
-.section-references .projets {
-    flex: 1;
-    display: flex;
-    overflow: hidden;
-}
-
-.section-references .projets .projet {
-    display: flex;
-    height: 100%;
-    flex: 1 0 100%;
-    order: 2;
-}
-
-.section-references .projets .projet .description {
-    flex: 4;
-    height: 100%;
-    margin-left: 20px;
-    margin-right: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family:Lato-Regular;
-    font-size: 1.4rem;
-    padding:0;
-}
-
-.section-references .projets .projet .visuel {
-    flex: 6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.section-references .projets .projet .description h4 {
-    font-family:Lato-Bold;
-    font-size:2rem;
+    color: white;
+    min-width: 350px;
     margin-bottom: 2rem;
 }
 
-.section-references .projets .projet .description hr {
-    height:1rem;
-    background-color: #5498a9;
-    color: #5498a9;
-    border-radius: 2px;
-    align-self: flex-end;
-    margin:1rem 0 2rem 0;
-    padding: 0;
-    width: 25%;
+.section-references .podium .les-references .une-reference .nom {
+    font-size:1.8rem;
+    font-family: Lato-Semibold;
 }
 
-.section-references .projets .projet .description .details_techniques {
-    text-align: right;
+.section-references .podium .les-references .une-reference .resume {
     font-family: Lato-Regular;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
 }
 
-.section-references .projets .projet .visuel img {
-    max-width: 85%;
+.section-references .podium .les-references .une-reference .visuel img {
+    max-width: 100%;
     max-height: 85%;
-    box-shadow: 1px 1px 12px #555;
-    flex-shrink:0;
-}
-
-.section-references .projets .projet_affiche {
-    order: 1;
-}
-
-.section-references .projets {
-    transform: translateX(100%);
-}
-
-.section-references .projets.defilement_inverse {
-    transform: translateX(-100%);
-}
-
-.section-references .projets.animation_finie {
-    transform: none;
-    transition: transform 1s cubic-bezier(.23, 1, .32, 1)
 }
 
 /** Sous 768px de large on stack en vertical la description et le visuel et les flèches viennent sous le carrousel */
@@ -134,41 +53,25 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    .section-references .projets {
-        order: 1;
-        width: 85%;
-        flex: auto;
-        margin-left: 35px;
-        margin-right: 35px;
+    .section-references .podium .les-references {
+        min-width: 400px;
     }
-    .section-references .projets .projet {
-        flex-direction: column;
-    }
-    .section-references .projets .projet .description {
-        margin:0;
-        justify-content: flex-start;
-        height: auto;
-        flex: auto;
-    }
-    .section-references .projets .projet .visuel {
-        justify-content: flex-start;
-        align-content: center;
-        margin:0;
-        flex:auto;
-    }
-    .section-references .fleche {
-        width: 20%;
-        height:40px;
-    }
-    .section-references #fleche_gauche, .section-references #fleche_droite {
-        background-size: 35px;
-    }
-    .section-references #fleche_gauche {
-        order:2;
-        margin:0 10% 0 0;
-    }
-    .section-references #fleche_droite {
-        order:3;
-        margin:0 0 0 10%;
-    }
+}
+
+.reference_hover {
+    cursor: pointer;
+    width: 16.5vw;
+    height: 19vw;
+    max-width: 310px;
+    margin: 0 auto 25px auto;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    color: transparent;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+    background-position: center;
 }
