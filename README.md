@@ -6,7 +6,7 @@ En local, le plus simple est de créer un serveur web qui sert le fichier index.
 
 ### Pour déployer
 Nous utilisons _github pages_, avec notre domaine alkeya.com branché dessus. https://help.github.com/articles/using-a-custom-domain-with-github-pages/.  
-Chaque `git push` sur `master` est donc un déployer en PROD automatiquement.
+Chaque `git push` sur `master` déclenche un déploiement en PROD.
 
 ### Structure
 * Template "one page" du site inspiré par : https://blackrockdigital.github.io/startbootstrap-scrolling-nav/  
